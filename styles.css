@@ -1,0 +1,12 @@
+/* .btn {
+    display:flex;
+} */
+#score {
+    width: 25%;
+    display: flex;
+}
+
+#score >p {
+    padding: 5px;
+}
+
