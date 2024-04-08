@@ -1,12 +1,53 @@
 /* .btn {
     display:flex;
 } */
-#score {
-    width: 25%;
+
+#container {
+    width: fit-content;
+    align-items: center;
     display: flex;
+    margin:auto;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+h3 {
+    text-align: center;
+    padding: 5px;
+
+}
+
+h4 {
+    text-align: center;
+}
+#score {
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    text-align: center;
 }
 
 #score >p {
     padding: 5px;
 }
 
+#winner {
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
+}
+
+.draw {
+    color: blue;
+}
